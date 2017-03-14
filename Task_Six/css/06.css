@@ -1,0 +1,351 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #555555;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+div#main{
+	height: 1386px;
+	width: 892px;
+	background-color: #FFFFFF;
+	margin: auto;
+	padding: 0 44px;
+}
+header#head{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+#head div{
+	width: 110px;
+	height: 61px;
+	background-color: #D45D5C;
+}
+#head div p{
+	font-family: "黑体";
+	color: #FFFFFF;
+	margin-bottom: 0;
+	margin-top: 45px;
+}
+#data{
+	font-family: "黑体";
+	color: #d45d5c;
+	margin: 0;
+}
+#string{
+	height: 2px;
+	width: 892px;
+	background-color: #938e8c;
+}
+#table{
+	display: table;
+	margin: 44px 0;
+}
+#tablerow{
+	display: table-row;
+}
+#top_left{
+	display: inline-block;
+	height: 301px;
+	width: 641px;
+	margin-right: 44px;
+	background-image: url(../0601.png);
+}
+#green{
+	background-color: green;
+	opacity: .2;
+	float: left;
+	height: 301px;
+	width: 191px;
+}
+#red{
+	background-color: red;
+	opacity: .2;
+	float: right;
+	height: 301px;
+	width: 191px;
+}
+#top_right{
+	display: inline-block;
+	width: 203px;
+	height: 301px;
+	border-top: 2px solid #cc8091;
+	vertical-align: top;
+	padding: 0px;
+	position: absolute;
+}
+#top_right .a{
+	font-size: 24px;
+	color: #000000;
+	font-family: "微软雅黑";
+	text-decoration: underline;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	line-height: 40px;
+	margin: 0;
+}
+#top_right .t{
+	margin-top: -10px;
+}
+#top_right .at{
+	font-size: 12px;
+	font-family: "楷体";
+	color: #676767;
+	line-height: 10px;
+	margin: 0;
+	font-style: oblique;
+}
+#top_right .number_one{
+	font-size: 116px;
+	font-family: "微软雅黑";
+	color: #65b86b;
+	font-style: oblique;
+	margin: 0 0 0 -18px;
+}
+#top_right .number_two{
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	color: #CC8091;
+	font-size: 55px;
+	margin: 0;
+}
+#top_right .c{
+	color: #CC8091;
+	font-size: 21px;
+	position: absolute;
+	bottom: -10px;
+	left: 80px;
+}
+#top_right .h{
+	color: #cccccc;
+	font-size: 12px;
+	position: absolute;
+	bottom: -10px;
+	left: 80px;
+}
+#one, #two, #three{
+	display: inline-block;
+	width: 210px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+#first .title{
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+#one .what{
+	color: #418c59;
+}
+#two .when{
+	color: #d2994f;
+}
+#three .how{
+	color: #cc7680;
+}
+#one .what_text{
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+	
+}
+#two .when_text{
+	color: #231815;
+	line-height: 16px;
+	opacity: .7;
+}
+#three .how_text{
+	font-family: "宋体";
+	color: #767777;
+	line-height: 16px;
+}
+#three .how_text_number{
+	color: #cd4a48;
+	line-height: 16px;
+	font-style: oblique;
+	opacity: .7;
+}
+#second{
+	margin-top: 66px;
+	margin-bottom: 10px;
+}
+#bottom_left{
+	width: 415px;
+	margin-right: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+#second .title p{
+	font-size: 42px;
+	color: :#11456b;
+	font-family: "黑体";
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+#bottom_left .title .the{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: oblique;
+}
+#bottom_left .title p:first-child{
+	line-height: 40px;
+}
+#second .string{
+	background-color: #11456B;
+	height: 2px;
+	width: 415px;
+}
+#qd p{
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+	margin: 0;
+	padding: 0;
+}
+#qd p:first-child{
+	margin-top: 30px;
+}
+#qd .q:first-letter{
+	color: #F5E327;
+	float: left;
+	font-size: 70px;
+}
+#qd img{
+	float: right;
+	width: 180px;
+	margin: 10px 8px 10px 10px;
+}
+#bottom_right{
+	display: inline-block;
+	width: 458px;
+	vertical-align: top;
+}
+#bottom_right form{
+	height: 275px;
+	width: 458px;
+	background-image: url(../0603.jpg);
+	background-size: 100% 100%;
+	position: absolute;
+}
+#bottom_right form div{
+	background: rgba(0,0,0,.2);
+	height: 61px;
+	width: 458px;
+	position: absolute;
+	bottom: 0;
+}
+#bottom_right form div p{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 8px 0;
+}
+#bottom_right .green{
+	background-color: #72b16a;
+	height: 44px;
+	width: 3px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+#bottom_right .wqd{
+	font-size: 26px;
+	color: #FFFFFF;
+	margin-right: 5px;
+}
+#bottom_right .gqd{
+	color: #72B16A;
+	font-style: oblique;
+	letter-spacing: 140%;
+	vertical-align: text-top;
+}
+#endform{
+	margin-top: 300px;
+	padding: 20px;
+	width: 418px;
+	height: 278px;
+	background-color: #F5E327;
+}
+#endform .front{
+	font-size: 16px;
+	line-height: 20px;
+	color: #5a5b5b;
+	font-family: "宋体";
+}
+#endform .red{
+	float: left;
+	background-color: #D45D5C;
+	width: 260px;
+	height: 160px;
+	margin-top: 14px;
+	margin-left: -20px;
+	color: #FFFFFF;
+}
+#endform .red .zero{
+	float: left;
+	font-size: 110px;
+	margin-left: 10px;
+}
+#endform .red .string{
+	width: 2px;
+	height: 86px;
+	background-color: #FFFFFF;
+	float: left;
+	margin: 34px 5px 0px 5px;
+}
+#endform .red .number{
+	margin: 0;
+	padding: 0;
+	line-height: 24px;
+	font-size: 21px;
+	font-family: "黑体";
+	font-style: oblique;
+	font-variant: small-caps;
+}
+#endform .red .one{
+	margin-top: 37px;
+}
+#endform .red .hello{
+	margin: 0;
+	font-family: "黑体";
+}
+#endform .world{
+	margin: 10px 0 0 250px;
+}
+#endform .world span{
+	color: #D45D5C;
+	font-size: 72px;
+	height: 72px;
+	font-family: "黑体";
+	display: inline;
+	padding: 0;
+}
+#endform .world span.a{
+	vertical-align: text-bottom;
+}
+#endform .world span.b{
+	vertical-align: text-top;
+}
+#endform .world p{
+	font-size: 14px; 
+	margin: 0;
+	color: #5A5B5B;
+	font-family: "黑体";
+	display: inline;
+}
+footer#foot div{
+	margin: 0;
+	width: 892px;
+	height: 1px;
+	background-color: #938E8C;
+}
+footer#foot p{
+	float: right;
+	font-family: "黑体";
+	color: #d45d5c;
+	margin: 0;
+}
