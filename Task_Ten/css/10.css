@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main > div{
+	width: 150px;
+	border: 1px solid #f00;
+	order: 1;
+	margin: 4px;
+}
+
+.red_one{
+	height: 120px;
+}
+
+.red_two{
+	height: 100px;
+}
+
+.red_three{
+	height: 40px;
+}
+
+.main .blue{
+	height: 200px;
+	border-color: #0f0;
+}
+
+@media screen and (max-width: 640px) {
+	.main{
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	
+	.main > div{
+		margin: 10px;
+	}
+	
+	.main .blue{
+		order: 0;
+	}
+}
